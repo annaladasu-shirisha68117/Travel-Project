@@ -24,29 +24,23 @@ Travel.</h1>
 <div className={active}>
   <ul className='navLists flex'> 
 <li className='navItem'>
-
-  <a href="#Item" className='navLink'>Home</a>
+<a href="#Item" className='navLink'>Home</a>
 </li>
 <li className='navItem'>
   <a href="#Item" className='navLink'>Packages</a>
 </li>
-
 <li className='navItem'>
   <a href="#Item" className='navLink'>Shop</a>
 </li>
-
 <li className='navItem'>
   <a href="#Item" className='navLink'>About</a>
 </li>
-
 <li className='navItem'>
   <a href="#Item" className='navLink'>Pages</a>
 </li>
-
 <li className='navItem'>
   <a href="#Item" className='navLink'>News</a>
 </li>
-
 <li className='navItem'>
   <a href="#Item" className='navLink'>Contact</a>
 </li>
@@ -54,24 +48,16 @@ Travel.</h1>
   <a href="#Item">BOOK NOW</a>
 </button>
   </ul>  
-
-  <div onClick={removeNavbar} className='closeNavbar'>
+<div onClick={removeNavbar} className='closeNavbar'>
     <AiFillCloseCircle className="icon"/>
   </div> 
    </div>
   <div onClick={showNav}  
   className='toggleNavbar'>
-    <TbGridDots className='icon'/> 
-     
+    <TbGridDots className='icon'/>   
   </div>
         </header>
     </section>
-    
   )
-}
- 
+} 
 export default Navbar;
-
-
-
-
