@@ -50,7 +50,6 @@
   .btn{
     padding: .6rem 1.5rem;
     background: linear-gradient(45deg, lightblue, deepskyblue, blue);
-    
     border-radius: 3rem;
     border: none;
     outline: none;
@@ -72,7 +71,6 @@
   }
   body{
     background: linear-gradient(45deg, rgb(77, 186, 223),white, deepskyblue);
-
   }
   @media screen and (min-width:1240px) {
     .container{
