@@ -8,7 +8,6 @@ import {FaInstagram} from 'react-icons/fa'
 import {SiTripadvisor} from 'react-icons/si'
 import {FaListUl} from 'react-icons/fa'
 import {TbApps} from 'react-icons/tb'
-
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -16,10 +15,7 @@ const Home  = () => {
 useEffect(() =>{
   Aos.init({duration: 2000})
 }, [])
-
-
-
-  return (
+ return (
     <section className='home'>
       <div className='overlay'></div>
        <video src={video} muted autoPlay loop type="video/mp4"></video>
@@ -38,14 +34,12 @@ Our Packages
   <GrLocation className='icon' />
   </div>
   </div>
-
-  <div className='dataInput'>
+<div className='dataInput'>
     <label htmlFor='date'>Search your date:</label>
   <div className='input flex'>
     <input type='date' /> 
   </div>
   </div>
-
 <div className='priceInput'>
   <div className='label_total flex'>
     <label htmlFor='price'>Max price:</label>
@@ -73,8 +67,6 @@ Our Packages
 </div>
    </div>
    </section>
-    
   )
 }
-
 export default Home;
