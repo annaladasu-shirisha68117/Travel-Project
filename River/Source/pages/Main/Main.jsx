@@ -14,7 +14,6 @@ import img9 from '../../images.react/img10.png'
 import img10 from '../../images.react/img11.png'
 import img11 from '../../images.react/img12.png'
 import img12 from '../../images.react/img13.png'
-
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {HiOutlineClipboardCheck} from 'react-icons/hi'
 const Data = [
@@ -129,17 +128,14 @@ const Data = [
   description: 'Formed by the confluence of the Tunga River and the Bhadra River at Koodli in Shimoga district of Karnataka, the Tungabhadra river is a major tributary of the Krishna river.',
  },
 ]
-
 const Main  = () => {
    useEffect(() =>{
     Aos.init({duration:2000})
    }, [])
-
-  return (
+ return (
     <section className='main container section'>
 <div className='secTitle'>
   <h3  data-aos="fade-up" className='title'> Most visited destinations </h3>
-
 </div>
 <div className='secContent grid'>
   {
@@ -172,12 +168,10 @@ return(
 </div>
   </div>
 )
-    }) 
+ }) 
   }
 </div>
     </section>
-
   )
 }
-
 export default Main;
