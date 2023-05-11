@@ -19,8 +19,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-         
-    .videoDiv{
+         .videoDiv{
         position: absolute;
         height: 100%;
         width: 100%;
@@ -39,7 +38,6 @@
             mix-blend-mode: multiply;
         }
     }
-    
     .secContent{
         width: 100%;
         height: max-content;
@@ -51,8 +49,7 @@
         margin: auto;
         row-gap: 2rem;
         z-index: 100;
-
-        .contactDiv{
+ .contactDiv{
             justify-content: space-between;
             flex-direction: column;
             gap: 1rem;
@@ -249,9 +246,7 @@
                     grid-template-columns: repeat(3,1fr);
                 padding-bottom: 1rem;
                 }
-                
-            
-            }
+                }
         }
     }
 }
